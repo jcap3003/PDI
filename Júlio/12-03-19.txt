@@ -1,0 +1,28 @@
+Aula dia 12/03:
+
+GRADIENTE DE IMAGEM: (OPEN CV)
+
+- Filtro passa-alta (Objetivo de realçar alta-frequência - Altas variações [bordas]);
+* minarização da imagem;
+*Aruco markers;
+*Aproximação poligonal;
+*Várias técnicas em sequência para processamento;
+
+
+OPEN CV (FILTROS):
+
+Sobel (x, y):
+- Ótimo para verificar pontos de inflexão;
+- Cálculo de gradiente em X (diferença entre os pixels nas laterais);
+- Cálculo de gradiente em y (diferença entre os pixels na parte superior e inferior);
+- Cálculo de resultante do gradiente é G = (Gx² + GY²)^1/2
+
+Schar:
+- Mais utilizado em Kernel menores (3x3, 5x5), pois faz uma melhor aproximação;
+
+Laplacian:
+- Já calcula as derivadas em X e Y de uma vez só;
+
+Canny Edge Detector:
+
+
